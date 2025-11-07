@@ -2,9 +2,16 @@
 //
 
 #include <iostream>
+#include <fstream>
 
 int main()
 {
+	std::cout << "Hello world";
 
+	std::ofstream MyFile("hello.txt");
+
+	MyFile << "Hello World";
+
+	//MyFile.close();
 }
 
