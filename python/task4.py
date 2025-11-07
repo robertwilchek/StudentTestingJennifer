@@ -8,3 +8,14 @@ ORDERS: List[Order] = [
     {"id": 103, "total": 120.00, "created": "2025-01-14T08:05:00", "customer": {"first": "Ben", "last": "Adams"}},
     {"id": 104, "total": 75.50, "created": "2025-01-13T12:00:00", "customer": {"first": "Cara", "last": "Lopez"}},
 ]
+
+
+print(ORDERS[1])
+print(ORDERS[1].customer)
+
+#write a loop that checks compares the first letter of each last name and stores alphabetic order in new list
+i = 0
+#while ( i < 4 ) :
+#    if ()
+#    i+1
+

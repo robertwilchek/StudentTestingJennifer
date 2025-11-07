@@ -1,7 +1,7 @@
 public class SumBug {
     public static int sum(int[] nums) {
         int total = 0;
-        for (int i = 0; i <= nums.length; i++) { 
+        for (int i = 0; i < nums.length; i++) { //changed condition from i <= to i < because the index would go out of bounds
             total += nums[i];
         }
         return total;
