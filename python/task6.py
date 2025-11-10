@@ -3,7 +3,8 @@ def remove_short(names, min_len):
         print(len(n))      
         print(n) 
         if len(n) < min_len:
-            names.remove(n)     
+            names.remove(n)
+            #print(names.remove(n))  
     return names
 
 

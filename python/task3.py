@@ -2,12 +2,29 @@
 
 def log_event(event, events=[]):
     events.append(event)
-    #events.remove(event)
+    # events.remove(event)
     return events
 
+#def remove_start(event, events=[]):
+#    events.remove(event)
+#    return events
 
 if __name__ == "__main__":
     print(log_event("start"))      # expect ["start"]
+    #remove_start("start")
     print(log_event("next"))       # expect ["next"], NOT ["start", "next"]   
+
+
+
+
+    #def log_event(event, events=[]):
+    #events.append(event)
+    #return events
+
+
+
+#if __name__ == "__main__":
+ #   print(log_event("start"))      # expect ["start"]
+  #  print(log_event("next"))       # expect ["next"], NOT ["start", "next"]   
 
 

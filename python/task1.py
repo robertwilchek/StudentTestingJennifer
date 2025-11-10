@@ -1,3 +1,4 @@
 print("Hello world")
 
-# how to output into a text file?
+with open("task1.txt", "a") as f:
+    print("Hello World" , file = f) 

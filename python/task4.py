@@ -10,12 +10,15 @@ ORDERS: List[Order] = [
 ]
 
 
-print(ORDERS[1])
-print(ORDERS[1].customer)
+#print(ORDERS[1])
+#print(ORDERS[1].keys)
+print(ORDERS[1]["customer"]["last"])
 
 #write a loop that checks compares the first letter of each last name and stores alphabetic order in new list
-i = 0
-#while ( i < 4 ) :
-#    if ()
-#    i+1
+
+#for i in range(4):
+ #   print(ORDERS[i]["customer"]["last"])
+  #  if (ORDERS[i][total] < ORDERS[i+1][total]):
+
+#print(ORDERS.sort())
 

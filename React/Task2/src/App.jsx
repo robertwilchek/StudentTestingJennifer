@@ -3,9 +3,11 @@ import './App.css';
 
 function App() {
   const [count, setCount] = useState(0);
+  //let [count, setCount] = useState(0);
 
   const handleClick = () => {
-    ++count;
+    //++count;
+    setCount(prevCount => ++prevCount)
   };
 
   const buttonLabel = count === 0 ? 'Click to start counting' : String(count);
